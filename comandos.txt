@@ -1,2 +1,7 @@
 -- Deshacer commits
 git rm --cached
+
+-- Regresa a una version anterior
+con git log puedo ver las versiones
+git reset [id] --hard || -soft
+
