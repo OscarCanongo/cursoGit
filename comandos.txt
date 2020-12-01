@@ -1,0 +1,2 @@
+-- Deshacer commits
+git rm --cached
