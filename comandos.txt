@@ -1,0 +1,12 @@
+-- Deshacer commits
+git rm --cached
+
+-- Regresa a una version anterior
+con git log puedo ver las versiones
+git reset [id] --hard || -soft
+
+--Volver a un archivo anterior 
+git checkout [id] || branch fileName
+
+--Inicializar un repo que está en la página
+git remote add origin URL
